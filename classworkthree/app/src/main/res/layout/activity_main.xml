@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FCF3EDED"
+    android:backgroundTint="#D6E7EF"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="74dp"
+        android:background="#F2EFEBEB"
+        android:backgroundTint="#F6F2F2"
+        android:fontFamily="sans-serif-light"
+        android:paddingStart="85dp"
+        android:text="enter the following"
+        android:textSize="24sp" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="55dp"
+        android:layout_marginTop="150dp"
+        android:background="#CBAAEA60"
+        android:ems="10"
+        android:hint="156"
+        android:inputType="textPersonName"
+        android:padding="5dp"
+        android:paddingStart="100dp"
+        android:textSize="24sp" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="55dp"
+        android:layout_marginTop="45dp"
+        android:background="#FFFFFF"
+        android:backgroundTint="#DFAFE175"
+        android:ems="10"
+        android:hint="55"
+        android:inputType="textPersonName"
+        android:padding="5dp"
+        android:paddingStart="115dp"
+        android:textColor="#8BC34A"
+        android:textColorHint="#6B1E1E1D"
+        android:textSize="24sp" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="150dp"
+        android:layout_marginTop="150dp"
+        android:background="#88E91E63"
+        android:padding="5dp"
+        android:text="addition"
+        android:textSize="18sp" />
+
+</LinearLayout>
